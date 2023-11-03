@@ -39,6 +39,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.15, )"
+            },
+            "Dapper.contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Data.Sqlclient": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
